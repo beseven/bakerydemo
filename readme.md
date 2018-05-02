@@ -61,9 +61,8 @@ Run the following commands:
 
 ```bash
 git clone git@github.com:wagtail/bakerydemo.git
-docker build --no-cache .
 cd bakerydemo
-docker-compose up --force-recreate app
+docker-compose up --debug -d
 docker-compose run app /venv/bin/python manage.py load_initial_data
 docker-compose up
 ```
