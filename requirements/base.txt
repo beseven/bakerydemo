@@ -7,4 +7,4 @@ elasticsearch==2.4.1
 wagtail>=2.0,<2.1
 wagtailfontawesome>=1.1.3,<1.2
 Pillow==4.0.0
-git+https://github.com/torchbox/wagtail-import-export@master
+git+https://github.com/torchbox/wagtail-import-export@3058787487d0237595b161b97fcc06feeb67e0e7
