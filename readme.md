@@ -63,8 +63,9 @@ Run the following commands:
 git clone git@github.com:wagtail/bakerydemo.git
 docker build --no-cache .
 cd bakerydemo
+docker-compose up --force-recreate app
 docker-compose run app /venv/bin/python manage.py load_initial_data
-docker-compose up --force-recreate bakerydemo
+docker-compose up
 ```
 
 The demo site will now be accessible at [http://localhost:8000/](http://localhost:8000/) and the Wagtail admin
