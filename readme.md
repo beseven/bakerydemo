@@ -62,7 +62,7 @@ Run the following commands:
 ```bash
 git clone git@github.com:wagtail/bakerydemo.git
 cd bakerydemo
-docker-compose up --debug -d
+docker-compose up --build -d
 docker-compose run app /venv/bin/python manage.py load_initial_data
 docker-compose up
 ```
