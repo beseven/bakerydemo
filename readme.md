@@ -67,6 +67,8 @@ docker-compose run app /venv/bin/python manage.py load_initial_data
 docker-compose up
 ```
 
+If oyou develop on this, make sure you use `docker-compose down -v` often.
+
 The demo site will now be accessible at [http://localhost:8000/](http://localhost:8000/) and the Wagtail admin
 interface at [http://localhost:8000/admin/](http://localhost:8000/admin/).
 

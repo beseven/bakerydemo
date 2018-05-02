@@ -13,4 +13,3 @@ django-redis==4.8.0
 django_cache_url==2.0.0
 # For copying initial media to S3 bucket
 awscli==1.11.23
-git+https://github.com/torchbox/wagtail-import-export@1affb167176bc975706f80e68a4075a0a5cb8053
