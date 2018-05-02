@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'wagtail.contrib.modeladmin',
     'wagtail.contrib.routable_page',
     'wagtail.core',
+    'wagtailimportexport',
 
     'rest_framework',
     'modelcluster',
